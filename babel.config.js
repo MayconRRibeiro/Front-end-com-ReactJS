@@ -14,4 +14,7 @@ module.exports = {
     // JSX de maneira que o browser entenda.
     '@babel/preset-react',
   ],
+  plugins: [
+    '@babel/plugin-transform-runtime'
+  ]
 };
